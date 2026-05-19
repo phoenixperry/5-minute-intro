@@ -220,6 +220,21 @@ html, body { background: var(--soft-black); }
   margin-top: 0.7em;
 }
 
+/* tighten the wide monospace word-space for short headlines */
+.reveal h1.tight-words { word-spacing: -0.25em; }
+
+/* yellow outlined CTA box for the closing slide */
+.reveal .cta-box {
+  display: inline-block;
+  border: 1.5px solid var(--yellow);
+  padding: 0.5em 1.1em;
+  font-family: 'Space Mono', monospace;
+  font-weight: 700;
+  color: var(--yellow);
+  letter-spacing: 0.02em;
+  margin-top: 0.4em;
+}
+
 /* Image slides — keep PDF-extracted images centered, with sandpit chrome */
 .image-slide { position: relative; }
 .image-slide .slide-content {
