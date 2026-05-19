@@ -173,6 +173,11 @@ html, body { background: var(--soft-black); }
 .bg-sketch-slide .concept.card.orange    { border-color: rgba(255, 149, 5, 0.45); }
 
 /* Title slides */
+/* Opt out of the global vertical-centering for the first/last (title) slides
+   so they sit top-left like the sandpit landing slide. */
+.reveal .slides section.title-slide {
+  justify-content: flex-start;
+}
 .title-slide { position: relative; }
 .title-slide .slide-content {
   position: relative;
