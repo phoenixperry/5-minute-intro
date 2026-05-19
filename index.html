@@ -1,312 +1,582 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>5-Minute Intro — Dr. Phoenix Perry</title>
-
-  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600;700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.css" />
-  <link rel="stylesheet" href="css/theme.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>How Creatives Are Shaping More Equitable AI Futures — Dr. Phoenix Perry</title>
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@400;500;700&family=DM+Mono&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/reveal.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/theme/black.min.css" id="theme">
+  <link rel="stylesheet" href="css/theme.css">
 </head>
 <body>
   <div class="reveal">
     <div class="slides">
 
-      <!-- 1: Title -->
+      <!-- ============================================ -->
+      <!-- SLIDE 1: TITLE                                -->
+      <!-- ============================================ -->
       <section class="title-slide">
-        <div class="kicker">March 2024</div>
-        <h1>How Creatives Are<br/>Shaping More<br/>Equitable AI Futures</h1>
-        <div class="byline">
-          <div class="name">Dr. Phoenix Perry</div>
-          <div class="contact">@phoenixperry &middot; phoenix@phoenixperry.com</div>
+        <div id="p5-container"></div>
+        <div class="slide-content">
+          <div class="color-bar">
+            <span style="background:var(--pink)"></span>
+            <span style="background:var(--yellow)"></span>
+            <span style="background:var(--orange)"></span>
+            <span style="background:var(--lime)"></span>
+            <span style="background:var(--teal)"></span>
+            <span style="background:var(--purple)"></span>
+          </div>
+          <h1>How Creatives Are<br><span class="accent-yellow">Shaping More Equitable</span><br>AI Futures</h1>
+          <p class="subtitle">A 5-minute intro</p>
+          <div><span class="funding-badge">5 MIN INTRO · MARCH 2024</span></div>
+          <p style="font-size:0.5em; opacity:0.7; margin-top:1.4em; font-family:'Space Mono',monospace;">
+            Dr. Phoenix Perry &middot; CCI, University of the Arts London<br>
+            <span style="opacity:0.7;">@phoenixperry &middot; phoenix@phoenixperry.com</span>
+          </p>
         </div>
       </section>
 
-      <!-- 2: Mission -->
-      <section>
-        <p class="statement">
-          I <span class="accent">liberate</span>, <span class="accent">empower</span>,
-          and <span class="accent">positively transform</span> culture through
-          creative technology.
-        </p>
+      <!-- 2: MISSION -->
+      <section class="bg-sketch-slide" data-whitney="permutations" data-whitney-color="#fc0">
+        <div class="whitney-bg sketch-bg"></div>
+        <div class="slide-content">
+          <div class="prompt-tag">MYTH 1 · MISSION</div>
+          <h2>I <span class="accent-yellow">liberate</span>, <span class="accent-pink">empower</span>,<br>and <span class="accent-teal">positively transform</span><br>culture through creative technology.</h2>
+          <div class="color-bar">
+            <span style="background:var(--yellow)"></span>
+            <span style="background:var(--pink)"></span>
+            <span style="background:var(--teal)"></span>
+          </div>
+        </div>
       </section>
 
-      <!-- 3: Artists as storytellers -->
-      <section>
-        <p class="statement">
-          Artists are the <span class="accent">storytellers of their culture</span>.
-          They create the myths that imagine possible worlds.
-        </p>
+      <!-- 3: STORYTELLERS -->
+      <section class="bg-sketch-slide" data-whitney="constellation" data-whitney-color="#fc0">
+        <div class="whitney-bg sketch-bg"></div>
+        <div class="slide-content">
+          <div class="prompt-tag">ARTISTS</div>
+          <h2>Artists are the <span class="accent-yellow">storytellers of their culture</span>.</h2>
+          <div class="color-bar">
+            <span style="background:var(--yellow)"></span>
+            <span style="background:var(--yellow); opacity:0.5"></span>
+            <span style="background:var(--yellow); opacity:0.2"></span>
+          </div>
+          <p>They create the myths that imagine possible worlds.</p>
+        </div>
       </section>
 
-      <!-- 4: No data is neutral -->
-      <section>
-        <p class="statement">
-          No data is neutral. This is a myth &mdash;
-          <span class="accent">data always tells a story.</span>
-        </p>
+      <!-- 4: NO DATA IS NEUTRAL -->
+      <section class="bg-sketch-slide" data-whitney="converge" data-whitney-color="#e91e63">
+        <div class="whitney-bg sketch-bg"></div>
+        <div class="slide-content">
+          <div class="prompt-tag">THE FIRST MYTH</div>
+          <h2><span class="accent-pink">No data is neutral.</span></h2>
+          <div class="color-bar">
+            <span style="background:var(--pink)"></span>
+            <span style="background:var(--pink); opacity:0.5"></span>
+            <span style="background:var(--pink); opacity:0.2"></span>
+          </div>
+          <p>This is a myth. Data always tells a story.</p>
+        </div>
       </section>
 
-      <!-- 5: Silicon Valley culture / Gamergate -->
+      <!-- 5: WHO BENEFITS -->
+      <section class="bg-sketch-slide" data-whitney="topo-wells" data-whitney-color="#ff9505">
+        <div class="whitney-bg sketch-bg"></div>
+        <div class="slide-content">
+          <div class="prompt-tag">CRITICAL QUESTION</div>
+          <h2><span class="accent-orange">Critically ask who benefits</span></h2>
+          <div class="color-bar">
+            <span style="background:var(--orange)"></span>
+            <span style="background:var(--orange); opacity:0.5"></span>
+            <span style="background:var(--orange); opacity:0.2"></span>
+          </div>
+          <p>...from discussions around endless growth and big datasets &mdash; and <span class="accent-orange">what you are being asked to surrender</span> to achieve it.</p>
+        </div>
+      </section>
+
+      <!-- 7: CREATIVE ML DIFFERENT GOALS -->
+      <section class="bg-sketch-slide" data-whitney="branches" data-whitney-color="#a8e622">
+        <div class="whitney-bg sketch-bg"></div>
+        <div class="slide-content">
+          <div class="prompt-tag">REORIENTATION</div>
+          <h2>Creative ML has<br/><span class="accent-lime">different goals.</span></h2>
+          <div class="color-bar">
+            <span style="background:var(--lime)"></span>
+            <span style="background:var(--lime); opacity:0.5"></span>
+            <span style="background:var(--lime); opacity:0.2"></span>
+          </div>
+        </div>
+      </section>
+
+      <!-- 8: DEEP ENGAGEMENT -->
+      <section class="bg-sketch-slide" data-whitney="arabesque" data-whitney-color="#33cabb">
+        <div class="whitney-bg sketch-bg"></div>
+        <div class="slide-content">
+          <div class="prompt-tag">CRAFT</div>
+          <h2>Creators know <span class="accent-teal">deep engagement</span><br>with materials and tools matters.</h2>
+          <div class="color-bar">
+            <span style="background:var(--teal)"></span>
+            <span style="background:var(--teal); opacity:0.5"></span>
+            <span style="background:var(--teal); opacity:0.2"></span>
+          </div>
+        </div>
+      </section>
+
+      <!-- 9: MATERIALS ARE DATASET + ML -->
+      <section class="bg-sketch-slide" data-whitney="matrix" data-whitney-color="#33cabb">
+        <div class="whitney-bg sketch-bg"></div>
+        <div class="slide-content">
+          <div class="prompt-tag">THE MATERIAL</div>
+          <h2>With creative AI, the materials are the <span class="accent-teal">dataset</span> and the <span class="accent-teal">machine learning system</span>.</h2>
+          <div class="color-bar">
+            <span style="background:var(--teal)"></span>
+            <span style="background:var(--teal); opacity:0.5"></span>
+            <span style="background:var(--teal); opacity:0.2"></span>
+          </div>
+        </div>
+      </section>
+
+      <!-- 10: NO SURRENDER -->
+      <section class="bg-sketch-slide" data-whitney="branches" data-whitney-color="#ff2d55">
+        <div class="whitney-bg sketch-bg"></div>
+        <div class="slide-content">
+          <div class="prompt-tag">REFUSAL</div>
+          <h2>As artists we need to work with machine learning systems in a way that <span style="color:var(--red)">does not mean surrendering</span> our data or creative control.</h2>
+          <div class="color-bar">
+            <span style="background:var(--red)"></span>
+            <span style="background:var(--red); opacity:0.5"></span>
+            <span style="background:var(--red); opacity:0.2"></span>
+          </div>
+        </div>
+      </section>
+
+      <!-- 11: SMALLER DATA -->
+      <section class="bg-sketch-slide" data-whitney="lissajous" data-whitney-color="#a8e622" data-whitney-opacity="0.5">
+        <div class="whitney-bg sketch-bg"></div>
+        <div class="slide-content">
+          <div class="prompt-tag">SUSTAINABILITY</div>
+          <h2>Smaller data = <span class="accent-lime">less computationally intensive</span> and <span class="accent-lime">more sustainable</span> models.</h2>
+          <div class="color-bar">
+            <span style="background:var(--lime)"></span>
+            <span style="background:var(--lime); opacity:0.5"></span>
+            <span style="background:var(--lime); opacity:0.2"></span>
+          </div>
+        </div>
+      </section>
+
+      <!-- 12: BUT WHAT ABOUT BIAS? -->
+      <section class="bg-sketch-slide" data-whitney="converge" data-whitney-color="#e91e63">
+        <div class="whitney-bg sketch-bg"></div>
+        <div class="slide-content">
+          <div class="prompt-tag">THE OBJECTION</div>
+          <h2>But what about <span class="accent-pink">bias?</span></h2>
+          <div class="color-bar">
+            <span style="background:var(--pink)"></span>
+            <span style="background:var(--pink); opacity:0.5"></span>
+            <span style="background:var(--pink); opacity:0.2"></span>
+          </div>
+        </div>
+      </section>
+
+      <!-- 13: BIAS INHERENT -->
+      <section class="bg-sketch-slide" data-whitney="orbits" data-whitney-color="#fc0">
+        <div class="whitney-bg sketch-bg"></div>
+        <div class="slide-content">
+          <div class="prompt-tag">REFRAMING</div>
+          <h2>In one sense, the bias inherent in a small, manually-curated, well-understood dataset may be <span class="accent-yellow">desirable.</span></h2>
+          <div class="color-bar">
+            <span style="background:var(--yellow)"></span>
+            <span style="background:var(--yellow); opacity:0.5"></span>
+            <span style="background:var(--yellow); opacity:0.2"></span>
+          </div>
+        </div>
+      </section>
+
+      <!-- 14: DATASET AS MEDIUM -->
+      <section class="bg-sketch-slide" data-whitney="arabesque" data-whitney-color="#af52de">
+        <div class="whitney-bg sketch-bg"></div>
+        <div class="slide-content">
+          <div class="prompt-tag">DATASET AS MEDIUM</div>
+          <h2>When a creator employs a dataset as a <span class="accent-purple">medium</span> for communicating an idea to the machine, they can better <span class="accent-purple">control the outputs</span> they generate.</h2>
+          <div class="color-bar">
+            <span style="background:var(--purple)"></span>
+            <span style="background:var(--purple); opacity:0.5"></span>
+            <span style="background:var(--purple); opacity:0.2"></span>
+          </div>
+        </div>
+      </section>
+
+      <!-- 15: INTERACTML LOGO (image) -->
       <section class="image-slide">
-        <img src="images/slide-05.jpg" alt="Silicon Valley culture is toxic — Gamergate and the broligarchy" />
-        <p class="caption">Silicon Valley culture is toxic.</p>
+        <div class="slide-content">
+          <div class="prompt-tag">CASE STUDY · INTERACTML</div>
+          <img src="images/slide-15.jpg" alt="InteractML — extended reality design tools" />
+        </div>
       </section>
 
-      <!-- 6: Who benefits -->
-      <section>
-        <p class="statement">
-          <span class="accent">Critically ask who benefits</span> from discussions
-          around endless growth and big datasets &mdash; and what you are being
-          asked to surrender to achieve it.
-        </p>
-      </section>
-
-      <!-- 7: Creative ML has different goals -->
-      <section>
-        <h2 class="big">
-          Creative ML has<br/>
-          <span class="accent">different goals.</span>
-        </h2>
-      </section>
-
-      <!-- 8: Deep engagement -->
-      <section>
-        <p class="statement">
-          Creators know <span class="accent">deep engagement</span>
-          with materials and tools matter.
-        </p>
-      </section>
-
-      <!-- 9: Dataset is the material -->
-      <section>
-        <p class="statement">
-          With creative AI, the materials are the
-          <span class="accent">dataset</span> and the
-          <span class="accent">machine learning system</span>.
-        </p>
-      </section>
-
-      <!-- 10: No surrender -->
-      <section>
-        <p class="statement">
-          As artists we need to work with machine learning systems in a way
-          that <span class="accent">does not mean surrendering</span> our data
-          or creative control.
-        </p>
-      </section>
-
-      <!-- 11: Smaller data -->
-      <section>
-        <p class="statement">
-          Smaller data = <span class="accent">less computationally intensive</span>
-          and <span class="accent">more sustainable</span> models.
-        </p>
-      </section>
-
-      <!-- 12: But what about bias? -->
-      <section>
-        <h2 class="big">But what about <span class="accent">bias?</span></h2>
-      </section>
-
-      <!-- 13: Bias inherent -->
-      <section>
-        <p class="statement">
-          In one sense, the bias inherent in a small, manually-curated,
-          well-understood dataset may be <span class="accent">desirable.</span>
-        </p>
-      </section>
-
-      <!-- 14: Dataset as medium -->
-      <section>
-        <p class="statement">
-          When a creator employs a dataset as a
-          <span class="accent">medium</span> for communicating an idea to the
-          machine, they can better control the outputs they generate.
-        </p>
-      </section>
-
-      <!-- 15: InteractML logo -->
+      <!-- 16: INTERACTML MARKETPLACE -->
       <section class="image-slide">
-        <img src="images/slide-15.jpg" alt="InteractML — extended reality design tools" />
+        <div class="slide-content">
+          <div class="prompt-tag">INTERACTML · UNREAL MARKETPLACE</div>
+          <img src="images/slide-16.jpg" alt="InteractML: Interactive Machine Learning System" />
+          <p class="caption">Visual scripting ML for Unreal.</p>
+        </div>
       </section>
 
-      <!-- 16: InteractML page -->
+      <!-- 17: INTERACTML DEMO -->
       <section class="image-slide">
-        <img src="images/slide-16.jpg" alt="InteractML: Interactive Machine Learning System on the Unreal marketplace" />
-        <p class="caption">InteractML &mdash; visual scripting ML for Unreal.</p>
+        <div class="slide-content">
+          <div class="prompt-tag">INTERACTML · EMBODIED ML</div>
+          <img src="images/slide-17.jpg" alt="InteractML demo: classification controlling lighting in a 3D environment" />
+          <p class="caption">Classification driving real-time lighting.</p>
+        </div>
       </section>
 
-      <!-- 17: InteractML demo -->
+      <!-- 18: ARTEFACTS -->
+      <section class="bg-sketch-slide" data-whitney="agent-network" data-whitney-color="#33cabb">
+        <div class="whitney-bg sketch-bg"></div>
+        <div class="slide-content">
+          <div class="prompt-tag">CULTURAL TRANSMISSION</div>
+          <h2>Artefacts and technologies embody <span class="accent-teal">cultural knowledge</span> and mediate social interactions.</h2>
+          <div class="color-bar">
+            <span style="background:var(--teal)"></span>
+            <span style="background:var(--teal); opacity:0.5"></span>
+            <span style="background:var(--teal); opacity:0.2"></span>
+          </div>
+          <p>Enabling the <span class="accent-teal">accumulation and transmission</span> of cultural information across generations.</p>
+        </div>
+      </section>
+
+      <!-- 19: EQUITABLE SHARING -->
+      <section class="bg-sketch-slide" data-whitney="constellation" data-whitney-color="#fc0">
+        <div class="whitney-bg sketch-bg"></div>
+        <div class="slide-content">
+          <div class="prompt-tag">PRIORITY</div>
+          <h2>Datasets and the <span class="accent-yellow">equitable sharing</span> of them need to be a priority for research.</h2>
+          <div class="color-bar">
+            <span style="background:var(--yellow)"></span>
+            <span style="background:var(--yellow); opacity:0.5"></span>
+            <span style="background:var(--yellow); opacity:0.2"></span>
+          </div>
+        </div>
+      </section>
+
+      <!-- 20: FEDERATED DATA COMMONS (title) — ResponsibleAI with Braid -->
+      <section class="bg-sketch-slide" data-whitney="agent-network" data-whitney-color="#a8e622">
+        <div class="whitney-bg sketch-bg"></div>
+        <div class="slide-content">
+          <div class="prompt-tag">PROJECT · RESPONSIBLEAI WITH BRAID</div>
+          <h2><span class="accent-lime">Federated Data Commons</span><br>for Creative Communities</h2>
+          <div class="color-bar">
+            <span style="background:var(--lime)"></span>
+            <span style="background:var(--lime); opacity:0.5"></span>
+            <span style="background:var(--lime); opacity:0.2"></span>
+          </div>
+          <p style="font-size:0.62em; opacity:0.8; margin-top:0.6em;">A <span class="accent-lime">ResponsibleAI</span> project, developed with <span class="accent-lime">Braid</span>.</p>
+        </div>
+      </section>
+
+      <!-- 21: MOZILLA DATA COLLECTIVE (image) -->
       <section class="image-slide">
-        <img src="images/slide-17.jpg" alt="InteractML demo: classification controlling lighting in 3D environment" />
-        <p class="caption">Embodied ML: classification driving real-time lighting.</p>
+        <div class="slide-content">
+          <div class="prompt-tag">PARTNERS · MOZILLA DATA COLLECTIVE</div>
+          <img src="images/slide-21.jpg" alt="Mozilla Data Collective — Create. Curate. Control. (CC signals)" />
+          <p class="caption">Mozilla Data Collective &mdash; Create. Curate. Control.</p>
+        </div>
       </section>
 
-      <!-- 18: Artefacts -->
-      <section>
-        <p class="statement">
-          Artefacts and technologies embody cultural knowledge and mediate
-          social interactions &mdash; enabling the
-          <span class="accent">accumulation and transmission</span>
-          of cultural information across generations.
-        </p>
+      <!-- 22: AIM -->
+      <section class="bg-sketch-slide" data-whitney="agent-network" data-whitney-color="#a8e622">
+        <div class="whitney-bg sketch-bg"></div>
+        <div class="slide-content">
+          <div class="prompt-tag">AIM</div>
+          <h2><span class="accent-lime">Community-governed</span> small-scale datasets for local training on low-resource models.</h2>
+          <div class="color-bar">
+            <span style="background:var(--lime)"></span>
+            <span style="background:var(--lime); opacity:0.5"></span>
+            <span style="background:var(--lime); opacity:0.2"></span>
+          </div>
+          <p>Empowering creators with greater control while reducing environmental impact.</p>
+        </div>
       </section>
 
-      <!-- 19: Equitable sharing -->
-      <section>
-        <p class="statement">
-          In this way, datasets and the
-          <span class="accent">equitable sharing</span> of them
-          need to be a priority for research.
-        </p>
+      <!-- 23: THREE KEY AREAS -->
+      <section class="bg-sketch-slide" data-whitney="branches" data-whitney-color="#fc0">
+        <div class="whitney-bg sketch-bg"></div>
+        <div class="slide-content">
+          <div class="prompt-tag">SCOPE</div>
+          <h2>Three key areas</h2>
+          <div class="color-bar">
+            <span style="background:var(--yellow)"></span>
+            <span style="background:var(--pink)"></span>
+            <span style="background:var(--teal)"></span>
+          </div>
+          <div class="concept-grid" style="grid-template-columns:1fr 1fr 1fr;">
+            <div class="concept card highlight">
+              <div class="term accent-yellow">Access</div>
+              <div class="def">Who can build, train, and own creative AI.</div>
+            </div>
+            <div class="concept card pink">
+              <div class="term accent-pink">Sustainability</div>
+              <div class="def">Small data, low-resource models, degrowth-compatible compute.</div>
+            </div>
+            <div class="concept card teal">
+              <div class="term accent-teal">Regulation</div>
+              <div class="def">Governance that gives consent and refusal back to creators.</div>
+            </div>
+          </div>
+        </div>
       </section>
 
-      <!-- 20: Federated Data Commons -->
-      <section class="title-slide">
-        <div class="kicker">Project</div>
-        <h1>Federated Data Commons<br/>for Creative Communities</h1>
+      <!-- 24: FEDERATION -->
+      <section class="bg-sketch-slide" data-whitney="agent-network" data-whitney-color="#33cabb">
+        <div class="whitney-bg sketch-bg"></div>
+        <div class="slide-content">
+          <div class="prompt-tag">RADICAL TURN</div>
+          <h2><span class="accent-teal">Federation</span> divests ownership from centralised platforms <span class="accent-teal">to communities</span>.</h2>
+          <div class="color-bar">
+            <span style="background:var(--teal)"></span>
+            <span style="background:var(--teal); opacity:0.5"></span>
+            <span style="background:var(--teal); opacity:0.2"></span>
+          </div>
+        </div>
       </section>
 
-      <!-- 21: Mozilla Data Collective team -->
-      <section class="image-slide">
-        <img src="images/slide-21.jpg" alt="Mozilla Data Collective — Create. Curate. Control. (CC signals)" />
-        <p class="caption">Mozilla Data Collective &mdash; Create. Curate. Control.</p>
+      <!-- 25: CURATOR-MADE DATASETS -->
+      <section class="bg-sketch-slide" data-whitney="orbits" data-whitney-color="#ff9505">
+        <div class="whitney-bg sketch-bg"></div>
+        <div class="slide-content">
+          <div class="prompt-tag">APPROACH</div>
+          <h2>Small-scale, <span class="accent-orange">curator-made</span> datasets for low-resource models.</h2>
+          <div class="color-bar">
+            <span style="background:var(--orange)"></span>
+            <span style="background:var(--orange); opacity:0.5"></span>
+            <span style="background:var(--orange); opacity:0.2"></span>
+          </div>
+          <p>Addressing concerns about large AI models trained on poorly curated datasets <span class="accent-orange">without creator permission</span>.</p>
+        </div>
       </section>
 
-      <!-- 22: Aim -->
-      <section>
-        <p class="statement">
-          We aim to develop <span class="accent">community-governed</span>
-          small-scale datasets for local training on low-resource models &mdash;
-          empowering creators with greater control while reducing environmental
-          impact.
-        </p>
+      <!-- 26: GOVERNANCE FRAMEWORK -->
+      <section class="bg-sketch-slide" data-whitney="matrix" data-whitney-color="#fc0">
+        <div class="whitney-bg sketch-bg"></div>
+        <div class="slide-content">
+          <div class="prompt-tag">OUTPUT 1</div>
+          <h2><span class="accent-yellow">Federated Data Commons</span> Governance Framework</h2>
+          <div class="color-bar">
+            <span style="background:var(--yellow)"></span>
+            <span style="background:var(--yellow); opacity:0.5"></span>
+            <span style="background:var(--yellow); opacity:0.2"></span>
+          </div>
+          <p>Website prototype establishing community-managed protocols and resources.</p>
+        </div>
       </section>
 
-      <!-- 23: 3 key areas -->
-      <section>
-        <h2 class="big">Three key areas</h2>
-        <ul class="trio">
-          <li><span class="accent">Access</span></li>
-          <li><span class="accent">Sustainability</span></li>
-          <li><span class="accent">Regulation</span></li>
-        </ul>
+      <!-- 27: PUBLIC GOVERNANCE MODELS -->
+      <section class="bg-sketch-slide" data-whitney="constellation" data-whitney-color="#33cabb">
+        <div class="whitney-bg sketch-bg"></div>
+        <div class="slide-content">
+          <div class="prompt-tag">DELIVERABLES</div>
+          <h2>Born from testing with <span class="accent-teal">archives and communities</span>.</h2>
+          <div class="color-bar">
+            <span style="background:var(--teal)"></span>
+            <span style="background:var(--teal); opacity:0.5"></span>
+            <span style="background:var(--teal); opacity:0.2"></span>
+          </div>
+          <div class="concept-grid">
+            <div class="concept card teal">
+              <div class="term accent-teal">Templates &amp; checklists</div>
+              <div class="def">Downloadable governance templates, checklists, and documentation.</div>
+            </div>
+            <div class="concept card highlight">
+              <div class="term accent-yellow">Decision-support</div>
+              <div class="def">Flow charts helping creators select appropriate governance options.</div>
+            </div>
+            <div class="concept card pink">
+              <div class="term accent-pink">Permission statements</div>
+              <div class="def">Customisable dataset documentation templates for federated governance.</div>
+            </div>
+            <div class="concept card lime">
+              <div class="term accent-lime">Implementation guides</div>
+              <div class="def">For organisations wishing to establish a federated data commons.</div>
+            </div>
+          </div>
+        </div>
       </section>
 
-      <!-- 24: Federation -->
-      <section>
-        <p class="statement">
-          Federation is a <span class="accent">radical turn</span> online.
-          It divests ownership from centralised platforms
-          <span class="accent">to communities</span>.
-        </p>
+      <!-- 28: DOCS AND CASE STUDIES -->
+      <section class="bg-sketch-slide" data-whitney="permutations" data-whitney-color="#af52de">
+        <div class="whitney-bg sketch-bg"></div>
+        <div class="slide-content">
+          <div class="prompt-tag">OUTPUT 2</div>
+          <h2>Documentation and case studies will inform <span class="accent-purple">publications, a symposium, and a policy report</span>.</h2>
+          <div class="color-bar">
+            <span style="background:var(--purple)"></span>
+            <span style="background:var(--purple); opacity:0.5"></span>
+            <span style="background:var(--purple); opacity:0.2"></span>
+          </div>
+        </div>
       </section>
 
-      <!-- 25: Small-scale, curator-made -->
-      <section>
-        <p class="statement">
-          We will support small-scale, curator-made datasets for
-          low-resource models &mdash; to address concerns about large AI models
-          trained on poorly curated datasets
-          <span class="accent">without creator permission</span>.
-        </p>
+      <!-- 29: AHRC SANDPIT -->
+      <section class="bg-sketch-slide" data-whitney="lissajous" data-whitney-color="#33cabb" data-whitney-opacity="0.5">
+        <div class="whitney-bg sketch-bg"></div>
+        <div class="slide-content">
+          <div class="prompt-tag">PROJECT</div>
+          <h2>The <span class="accent-teal">AHRC Sandpit</span></h2>
+          <div class="color-bar">
+            <span style="background:var(--teal)"></span>
+            <span style="background:var(--teal); opacity:0.5"></span>
+            <span style="background:var(--teal); opacity:0.2"></span>
+          </div>
+          <p>US / Canadian "Doing AI Differently" project.</p>
+        </div>
       </section>
 
-      <!-- 26: Governance framework -->
-      <section>
-        <div class="kicker">Output</div>
-        <h2>Federated Data Commons<br/>Governance Framework</h2>
-        <p class="sub">
-          Website prototype that establishes community-managed protocols and
-          resources.
-        </p>
+      <!-- 30: ANTIGRAVITY MACHINE — terrain background (mirrored from sandpit /#/6) -->
+      <section class="bg-sketch-slide">
+        <div id="terrain-container" class="sketch-bg"></div>
+        <div class="slide-content">
+          <div style="background:rgba(3,3,3,0.80); padding:0.5em 0.7em; margin:0.4em 0;">
+            <div class="prompt-tag">PROMPT 2 · DELIVERABLE:</div>
+            <h2><span class="accent-lime">The Antigravity Machine</span></h2>
+            <div class="color-bar">
+              <span style="background:var(--lime)"></span>
+              <span style="background:var(--lime); opacity:0.5"></span>
+              <span style="background:var(--lime); opacity:0.2"></span>
+            </div>
+            <p style="font-size:0.6em; opacity:0.8; margin-bottom:0;">This directly addresses the dominant attractor problem in generative AI.</p>
+          </div>
+          <div class="concept-grid">
+            <div class="concept card lime">
+              <div class="term accent-lime">Non-Linear Forking</div>
+              <div class="def">Branch explorations at any point. Maintain multiple trajectories simultaneously rather than being funnelled toward a single resolved output.</div>
+            </div>
+            <div class="concept card teal">
+              <div class="term accent-teal">Persistent Journey Mapping</div>
+              <div class="def">Record and visualise the full exploration path. The creative process becomes visible, reviewable, resumable across sessions.</div>
+            </div>
+            <div class="concept card highlight">
+              <div class="term accent-yellow">Output Indeterminacy Controls</div>
+              <div class="def">Adjustable parameters that modulate the degree of resolution. Hold outputs in productive ambiguity rather than forcing premature convergence.</div>
+            </div>
+            <div class="concept card pink">
+              <div class="term accent-pink">Dominant Attractor Diagnostics</div>
+              <div class="def">Visualisation layer making convergence pressures legible. Showing practitioners where the system is pulling them and why.</div>
+            </div>
+          </div>
+        </div>
       </section>
 
-      <!-- 27: Public governance models -->
-      <section>
-        <p class="statement">
-          Public governance models will be
-          <span class="accent">born from testing</span> with archives and
-          communities.
-        </p>
-        <ul class="bullets">
-          <li>Downloadable governance templates, checklists and documentation</li>
-          <li>Decision-support flow charts for selecting governance options</li>
-          <li>Customisable permission statements and dataset documentation templates</li>
-          <li>Implementation guides for establishing a federated data commons</li>
-        </ul>
+      <!-- 31: REWILDING INTELLIGENCE -->
+      <section class="bg-sketch-slide" data-whitney="branches" data-whitney-color="#a8e622">
+        <div class="whitney-bg sketch-bg"></div>
+        <div class="slide-content">
+          <div class="prompt-tag">TURING FELLOWSHIP</div>
+          <h2><span class="accent-lime">Rewilding Intelligence</span></h2>
+          <div class="color-bar">
+            <span style="background:var(--lime)"></span>
+            <span style="background:var(--lime); opacity:0.5"></span>
+            <span style="background:var(--lime); opacity:0.2"></span>
+          </div>
+          <p>Supporting Dr. Johnny Golding to integrate their research with AI.</p>
+        </div>
       </section>
 
-      <!-- 28: Documentation & case studies -->
-      <section>
-        <p class="statement">
-          Documentation and case studies based on our research will inform
-          <span class="accent">publications</span>, a
-          <span class="accent">symposium</span>, and a
-          <span class="accent">policy report</span>.
-        </p>
+      <!-- 32: SUSTAINABLE AI STACK -->
+      <section class="bg-sketch-slide" data-whitney="topo-wells" data-whitney-color="#fc0">
+        <div class="whitney-bg sketch-bg"></div>
+        <div class="slide-content">
+          <div class="prompt-tag">DESIGN GENERATORS</div>
+          <h2>A <span class="accent-yellow">Sustainable AI Stack</span> for the Creative Sector</h2>
+          <div class="color-bar">
+            <span style="background:var(--yellow)"></span>
+            <span style="background:var(--yellow); opacity:0.5"></span>
+            <span style="background:var(--yellow); opacity:0.2"></span>
+          </div>
+        </div>
       </section>
 
-      <!-- 29: AHRC sandpit -->
-      <section class="title-slide">
-        <div class="kicker">Project</div>
-        <h1>The AHRC Sandpit<br/>US/Canadian "Doing AI Differently" Project</h1>
-      </section>
-
-      <!-- 30: Antigravity machine -->
-      <section>
-        <div class="kicker">Concept</div>
-        <h2>The Antigravity Machine</h2>
-        <p class="sub">
-          Transforming latent space into a
-          <span class="accent">navigable imagination space</span> &mdash;
-          equipped with anti-gravity mapping, forking-based exploration, and
-          persistent journey mapping.
-        </p>
-      </section>
-
-      <!-- 31: Rewilding intelligence -->
-      <section>
-        <div class="kicker">Turing Fellowship</div>
-        <h2>Rewilding Intelligence</h2>
-        <p class="sub">
-          Supporting Dr. Johnny Golding to integrate their research with AI.
-        </p>
-      </section>
-
-      <!-- 32: Sustainable AI stack -->
-      <section>
-        <div class="kicker">Design Generators</div>
-        <h2>A Sustainable AI Stack<br/>for the Creative Sector</h2>
-      </section>
-
-      <!-- 33: Thanks / contact -->
+      <!-- 33: THANK YOU -->
       <section class="title-slide closing">
-        <h1>Thank you.</h1>
-        <div class="byline">
-          <div class="name">Dr. Phoenix Perry</div>
-          <div class="contact">@phoenixperry</div>
-          <div class="contact">phoenix@phoenixperry.com</div>
+        <div id="p5-container-end"></div>
+        <div class="slide-content">
+          <div class="color-bar">
+            <span style="background:var(--pink)"></span>
+            <span style="background:var(--yellow)"></span>
+            <span style="background:var(--orange)"></span>
+            <span style="background:var(--lime)"></span>
+            <span style="background:var(--teal)"></span>
+            <span style="background:var(--purple)"></span>
+          </div>
+          <h1><span class="accent-yellow">Thank you.</span></h1>
+          <p class="subtitle">Questions? Collaborations?</p>
+          <p style="font-size:0.5em; opacity:0.85; margin-top:1.4em; font-family:'Space Mono',monospace;">
+            Dr. Phoenix Perry<br>
+            @phoenixperry<br>
+            phoenix@phoenixperry.com
+          </p>
+          <div><span class="funding-badge">MYTH 2</span></div>
         </div>
       </section>
 
     </div>
   </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.1.0/dist/reveal.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.6.1/reveal.min.js"></script>
+  <script src="js/sketches.js"></script>
   <script>
     Reveal.initialize({
       hash: true,
-      transition: 'fade',
-      controls: true,
+      slideNumber: true,
       progress: true,
-      slideNumber: 'c/t',
-      width: 1280,
-      height: 800,
-      margin: 0.06,
+      center: false,
+      width: '100%',
+      height: '100%',
+      margin: 0,
+      minScale: 0.5,
+      maxScale: 1.5,
+      transition: 'fade',
+      transitionSpeed: 'fast',
+      backgroundTransition: 'none',
+      disableLayout: true
     });
+
+    function activateSlide(slide) {
+      const isTitle = slide.classList.contains('title-slide');
+      window.waveP5 && window.waveP5.setActive(isTitle);
+
+      // route the wave canvas to whichever title container this slide has
+      if (isTitle) {
+        const target = slide.querySelector('#p5-container, #p5-container-end');
+        if (target && window.waveP5 && window.waveP5.adoptContainer) {
+          window.waveP5.adoptContainer(target);
+        }
+      }
+
+      const isTerrain = slide.querySelector('#terrain-container');
+      window.terrainP5 && window.terrainP5.setActive(!!isTerrain);
+
+      const whitneyContainer = slide.querySelector('.whitney-bg');
+      if (whitneyContainer && slide.dataset.whitney) {
+        const opacity = parseFloat(slide.dataset.whitneyOpacity) || 1.0;
+        whitneyContainer.style.opacity = opacity;
+        window.whitneyP5.activate(whitneyContainer, {
+          type: slide.dataset.whitney,
+          color: slide.dataset.whitneyColor || '#f7f2dd'
+        });
+      } else {
+        window.whitneyP5 && window.whitneyP5.deactivate();
+      }
+    }
+
+    Reveal.on('slidechanged', e => setTimeout(() => activateSlide(e.currentSlide), 80));
+    Reveal.on('ready',        e => setTimeout(() => activateSlide(e.currentSlide), 80));
   </script>
 </body>
 </html>
